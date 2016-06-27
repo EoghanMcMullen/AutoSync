@@ -10,3 +10,8 @@ The system has a number of other features including single file upload, a shared
 
 The main idea behind this project is to provide a very low cost way to automatically back up any data on a mobile device with very little effort. Cloud services provide similar functionality but this system provides the functionality without recurring bills. In short the product developed is a home cloud that provides automated functionality through an Android application
 
+
+Technical guide: https://github.com/EoghanMcMullen/AutoSync/blob/master/Technical%20Guide%20-%20AutoSync.pdf
+
+User Manual: https://github.com/EoghanMcMullen/AutoSync/blob/master/AutoSync%20user%20manual.pdf
+
