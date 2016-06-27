@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/syncBoxImageview"
+        android:layout_gravity="left"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_white_syncbox"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/syncBoxNameText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:paddingTop="5dp"
+        android:maxLength="25"
+        android:text="hello"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical"
+        android:clickable="false"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/newSyncBoxButton"
+            android:background="#533A71"
+            android:layout_margin="5dp"
+            android:src="@mipmap/add_box_image"
+            android:scaleType="fitCenter"
+            android:contentDescription="Add a new sync box"/>
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/instructionsButton"
+            android:background="#6184D8"
+            android:layout_margin="5dp"
+            android:src="@mipmap/help_image"
+            android:scaleType="fitCenter"
+            android:contentDescription="Help page"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/syncedDevicesButton"
+            android:background="#50C5B7"
+            android:layout_margin="5dp"
+            android:src="@mipmap/connected_box_image"
+            android:scaleType="fitCenter"
+            android:contentDescription="My Sync boxes"/>
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/cloudLoginButton"
+            android:background="#9CEC5B"
+            android:layout_margin="5dp"
+            android:src="@mipmap/set"
+            android:scaleType="fitCenter"
+            android:contentDescription="Settings"/>
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ListView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>-->
+</LinearLayout>
